@@ -56,14 +56,14 @@ truelove_score = int(truelove_score)
 
 #condition and conclusion
 
-if truelove_score < 10 or truelove_score >90:
-    prompt1 = f"Your score is {truelove_score}, and you go together like coke and mentos"
+if (truelove_score < 10) or (truelove_score >90):
+    prompt1 = f"Your score is {truelove_score} and you go together like coke and mentos"
     print(prompt1)
     
-elif truelove_score >40 and truelove_score <50:
+elif (truelove_score >=40) and (truelove_score <=50):
     prompt2 = f"Your score is {truelove_score}, you are alright together"
     print(prompt2)
     
 else:
-    prompt3 = f"Your score is {truelove_score}"
+    prompt3 = f"Your score is {truelove_score}. Enjoy love"
     print(prompt3)
